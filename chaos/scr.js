@@ -31,7 +31,7 @@ function line(x1, y1, x2, y2){
 
 var pos = maker(t, t);
 var posback = maker(t, t);
-var cam = -2000;
+var cam = -4000;
 let posm = new Array();
 
 ctx.fillStyle = "rgba(0,0,0,1)";
