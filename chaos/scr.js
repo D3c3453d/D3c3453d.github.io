@@ -44,8 +44,8 @@ function myCallback() {
 	pos = maker(t, t);
 	for(var i = 0; i < 12000; i++){ 
 		posm[i] = pos;
-		draw(700*pos.x-cam, 700*pos.y-cam-1000);
-		//line(700*posm[i].x-cam+700, 700*posm[i].y-cam, 700*pos.x-cam, 700*pos.y-cam);
+		draw(700*pos.x-cam, 700*pos.y-cam-2000);
+		line(700*posm[i].x-cam+700, 700*posm[i].y-cam, 700*pos.x-cam, 700*pos.y-cam);
 		posback = pos;
 		pos = maker(pos.x, pos.y);
 	}
