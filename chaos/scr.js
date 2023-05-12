@@ -15,8 +15,8 @@ function random(min, max)
  }
  
 function draw(x, y){
-	//ctx.fillStyle = "rgba("+(Math.sin(Math.log(t*10000))+1)*80+50+","+Math.log(t*10000)*100%200+", "+(Math.cos(Math.log(t*10000))+1)*80+50+", 1)";
-	ctx.fillStyle = "rgba(" + random(150, 255) +","+ random(150, 255) +","+ random(150, 255) +", 1)";
+	ctx.fillStyle = "rgba("+(Math.sin(Math.log(t*10000))+1)*80+50+","+Math.log(t*10000)*100%200+", "+(Math.cos(Math.log(t*10000))+1)*80+50+", 1)";
+	//ctx.fillStyle = "rgba(" + random(150, 255) +","+ random(150, 255) +","+ random(150, 255) +", 1)";
 	ctx.beginPath();
 	ctx.arc(x, y, 2, 0, 2 * Math.PI);
 	ctx.fill();
